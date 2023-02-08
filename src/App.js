@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
-import Post from "./pages/Post";
 import CreatePost from "./pages/CreatePost";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <React.Fragment>
       <Header/>
       <Home/>
-      <Post/>
       <CreatePost/>
     </React.Fragment>
   );
