@@ -8,11 +8,11 @@ import CreatePost from "./pages/CreatePost";
 function App() {
   return (
     <React.Fragment>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="createPost" element={<CreatePost />} />
+          <Route path="/createPost" element={<CreatePost />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>
